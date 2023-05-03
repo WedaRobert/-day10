@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: maroon;
+    color: #fff;
+    }
+    h1{
+        color: #fff;
+    }
+
+header{
+    background-color: gray;
+    color: #fff;
+    height: 80px;
+    padding: 10px 3%;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 0 16px;
+  
+}
+.weda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: maroon;
+    padding: 10px;
+}
