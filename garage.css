@@ -1,10 +1,13 @@
 *{
     padding: 0;
-    margin: o;
+    margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url('./garage\ -\ Copy.jpeg');
+section{
+    padding: 40px 8%;
+}
+.section-1{
+    background-image: url('garage.jpeg');
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -13,7 +16,7 @@ body{
 }
 .container{
     text-align: center;
-    margin-top: 170px;
+    padding-top: 200px;
     color: #fff;
     
 
@@ -33,6 +36,87 @@ body{
     color: red;
     cursor: pointer;
     
-    
 }
 
+
+/* SECTION 2 */
+.row{
+    display: flex;
+    gap: 40px;
+}
+.row img{
+    width: 400px;
+    margin-bottom: 40px;
+}
+.row h1{
+padding-bottom: 20px;
+}
+
+/*SECTION 3*/
+.section-3{
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+}
+
+.column img{
+    width: 100%;
+}
+.column{
+    display: flex;
+    gap: 40px;
+}
+.section-3 h1{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.slide{
+    width: 300px;
+    height: 200px;
+   
+}
+.column .inside{
+    color: #fff;
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+}
+/*SECTION 4*/
+
+.section-4 h1{
+    padding-bottom: 50px;
+}
+.container-1{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.client-1{
+    display: flex;
+    gap: 20px;
+}
+
+.client-1 .image{
+    width: 150px;
+}
+.client-1 .image img{
+    width: 100%;
+}
+/*SECTION 5*/
+.section-5{
+    background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0,0.8)), url('./garage.jpeg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.section-5 .title{
+   
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.section-5 h1{
+    color: #fff;
+    
+}
